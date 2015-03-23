@@ -1,5 +1,15 @@
 BuildmLearn Toolkit
 ===================
+Run the following commands:
+
+1) mkdir build && cd build
+
+2) cmake ../ -DCMAKE_BUILD_TYPE="release" -DCMAKE_INSTALL_PREFIX=/usr -DUSE_QT_5="ON"
+
+3) make
+
+4) ./buildmlearn-toolkit
+
 BuildmLearn Toolkit is an easy-to-use program that helps the users make mobile apps without any knowledge of application development.
 
 Portage
